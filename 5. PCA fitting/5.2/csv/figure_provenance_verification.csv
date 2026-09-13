@@ -1,0 +1,8 @@
+Figure,Scientific quantity,Corrected source artifact,Exact variables,Transformation,Matching table,Matching Results subsection,Regen status
+Fig 7,"Single-split test ROC-AUC, 14 models, both datasets",qdfl-hybrid-leakage-safe.ipynb,"per-model ROC-AUC (Azamuke, PaySim)",sort descending per panel; QDFL rows red,Table IV (ROC-AUC cols),4.3.1,REGENERATED
+Fig 8,Mean Uhlmann fidelity vs per-gate noise p,qdfl-hybrid-with-noise-auc-leakage-safe.ipynb,"VQC/QDCN/QDFL fidelity at p in {0.001,0.005,0.01,0.05,0.1}",mean across channels x 50 inputs; log-x line plot,Table VI,4.4,REGENERATED
+Fig 9,Test ROC-AUC vs trainable-parameter count,qdfl-hybrid-leakage-safe.ipynb,per-model ROC-AUC + param count; QSVM omitted (0 params),"log-x scatter, coloured by family",Table IV (ROC-AUC + Params),4.3.2 (parameter economy),REGENERATED
+Fig 10,Cross-dataset rank stability,qdfl-hybrid-leakage-safe.ipynb,per-model ROC/F1/AP both datasets; ROC-AUC ranks; Spearman rho,left: score-agreement scatter; right: rank slope chart,Table IV; rho in 4.3.3 prose,4.3.3,REGENERATED
+Fig 11,Downstream QDFL ROC-AUC under NISQ noise,qdfl-hybrid-with-noise-auc-leakage-safe.ipynb (noise_auc.csv),"QDFL AUC per channel at p in {0,0.01,0.1}, both datasets",grouped bars vs noise-free dashed line,(reported in 4.4 text),4.4,REGENERATED
+Fig 12,"Confusion matrices (QDFL, XGBoost) at 0.5 threshold",NONE (no leakage-safe notebook emits per-sample predictions),per-sample predicted vs actual labels,row-normalised 2x2 matrices,-,4.5 / 4.6,BLOCKED - corrected predictions unavailable
+Fig 13,"ROC curves (QDFL, VQDVF, XGBoost)",NONE (no leakage-safe notebook computes VQDVF or per-sample scores),per-sample fraud scores + labels,fpr/tpr curve per model,-,4.6,BLOCKED - corrected scores + VQDVF unavailable

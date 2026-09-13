@@ -1,0 +1,13 @@
+Figure,Plotted quantity,Example model,Figure value,Table value,Diff,Status
+Fig 7,ROC-AUC primary,FedProx-NONIID,0.8895,0.8895,0.0000,MATCH
+Fig 7,ROC-AUC primary,VQC,0.8816,0.8816,0.0000,MATCH
+Fig 7,ROC-AUC primary,VQC-matched,0.4998,0.4998,0.0000,MATCH
+Fig 7,ROC-AUC PaySim,XGBoost,0.9991,0.9991,0.0000,MATCH
+Fig 8,Fidelity p=0.1 primary,QDCN,0.5805,0.5805,0.0000,MATCH
+Fig 8,Fidelity p=0.1 primary,QDFL,0.4200,0.4200,0.0000,MATCH
+Fig 9,ROC-AUC vs params primary,VQC,0.8816,0.8816,0.0000,MATCH
+Fig 10,Spearman rho ROC-AUC,(all 14),+0.7802,+0.7802,0.0000,MATCH
+Fig 10,Primary rank,FedProx-NONIID,1,1,0,MATCH
+Fig 10,PaySim rank,VQC,13,13,0,MATCH
+Fig 11,Downstream AUC noise-free primary,QDFL,0.8733,0.8733,0.0000,MATCH
+Fig 11,Downstream AUC noise-free PaySim,QDFL,0.9503,0.9503,0.0000,MATCH

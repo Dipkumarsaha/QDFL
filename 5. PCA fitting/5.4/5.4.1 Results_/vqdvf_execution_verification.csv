@@ -1,0 +1,7 @@
+dataset,model,n,positive_count,auc_csv,auc_figure,absolute_difference,match
+Azamuke 2024 (primary),QDFL,3200,1600,0.8733324219,0.8733324219,0.0,True
+Azamuke 2024 (primary),VQDVF,3200,1600,0.8851859375,0.8851859375,0.0,True
+Azamuke 2024 (primary),XGBoost,3200,1600,0.8888472656,0.8888472656,0.0,True
+PaySim (comparison),QDFL,3200,1600,0.9503035156,0.9503035156,0.0,True
+PaySim (comparison),VQDVF,3200,1600,0.9962027344,0.9962027344,0.0,True
+PaySim (comparison),XGBoost,3200,1600,0.9990667969,0.9990667969,0.0,True
